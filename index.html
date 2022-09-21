@@ -29,10 +29,14 @@
     </div>
 
     <form>
-      <input class="in" type="text" placeholder="First Name">
-      <input class="in" type="text" placeholder="Last Name">
-      <input class="in" type="text" placeholder="Email Address">
-      <input class="in" type="text" placeholder="Password">
+      <input class="in first-name" type="text" placeholder="First Name">
+      <p class="warning">First Name cannot be empty</p>
+      <input class="in last-name" type="text" placeholder="Last Name">
+      <p class="warning">Last Name cannot be empty</p>
+      <input class="in email" type="email" placeholder="Email Address">
+      <p class="warning">Email cannot be empty</p>
+      <input class="in password" type="password" placeholder="Password">
+      <p class="warning">Password cannot be empty</p>
       <button type="submit">Claim your free trial</button>
       <p class="right-bottom-p">By clicking the button you agree to our <span class="right-bottom-span">Terms and Services</span></p>
     </form>
