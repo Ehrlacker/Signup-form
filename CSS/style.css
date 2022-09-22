@@ -96,10 +96,11 @@ form{
     color: red;
     text-align:right;
     font-size: .8rem;
-    display: none;
 }
 
-button{
+
+
+.claim{
     background-color: hsl(154, 59%, 51%);
     color: white;
     border: none;
@@ -118,6 +119,10 @@ padding-bottom: 20px;
 .right-bottom-span{
 color: hsl(0, 100%, 74%);
 font-weight: 600;
+}
+
+.hidden{
+    display: none;
 }
 
 
