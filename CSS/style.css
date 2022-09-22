@@ -20,6 +20,11 @@ body{
     
 }
 
+.img{
+    object-fit: cover;
+    
+}
+
 
 
 main{
@@ -87,7 +92,6 @@ form{
     text-align: left;
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px;
     border-radius: 5px;
     border: 1px solid rgb(163, 163, 163);
 }
@@ -123,6 +127,10 @@ font-weight: 600;
 
 .hidden{
     display: none;
+}
+
+.wrong{
+    border:solid 1px red;
 }
 
 

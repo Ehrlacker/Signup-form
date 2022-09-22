@@ -33,8 +33,22 @@ button.addEventListener('click', function(){
 
 if (firstName.value.length === 0){
 warning1.classList.remove('hidden'); 
-}else{
-     console.log('yeeesss')
+firstName.classList.add('wrong');
+ 
+} if(lastName.value.length === 0){
+warning2.classList.remove('hidden'); 
+lastName.classList.add('wrong'); 
+ } 
+ 
+if(email.value.length === 0){
+warning3.classList.remove('hidden'); 
+email.classList.add('wrong'); 
+ }
+ 
+ if (password.value.length < 6){     
+warning4.classList.remove('hidden'); 
+warning4.innerHTML = "please create a password with at least 6 characters"
+password.classList.add('wrong');
  }
 
 });
